@@ -146,7 +146,7 @@ async def return_book(update: Update, context: ContextTypes.DEFAULT_TYPE):
 def main():
     """Start the bot"""
     # Create application and pass bot token
-    application = Application.builder().token('YOUR_BOT_TOKEN').build()
+    application = Application.builder().token('7425993280:AAGtMx4rjt7nzq9oHngyQonps2fvYzNYVXg').build()
     
     # Add conversation handler for book registration
     conv_handler = ConversationHandler(
